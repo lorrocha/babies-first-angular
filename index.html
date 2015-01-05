@@ -1,15 +1,14 @@
+
 <html>
   <head>
     <title>My Angular App!</title>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
     <script src="app.js"></script>
   </head>
-  <body ng-app="tumblrApp" ng-controller="MainCtrl">
-    <div>
-      {{test}}
-    </div>
-      <div ng-repeat="blog in blogs">
-        <div>{{blog}}</div>
-      </div>
+  <body class="highlight" ng-app="tumblrApp" ng-controller='MainCtrl'>
+  {{page}}
+    <div><span class="highlight" ng-include='"patials/main.html"'></span></div>
+
+
   </body>
 </html>

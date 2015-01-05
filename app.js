@@ -1,5 +1,7 @@
 angular.module('tumblrApp', []).controller('MainCtrl', ['$scope',
   function($scope){
+  	$scope.page = 'main.html'
+
     $scope.test = 'Hello world!!!!';
     
     $scope.blogs = [
@@ -10,3 +12,5 @@ angular.module('tumblrApp', []).controller('MainCtrl', ['$scope',
     'rocketonthemoon'];
   }
 ]);
+
+
